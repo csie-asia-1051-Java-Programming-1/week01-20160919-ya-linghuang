@@ -4,11 +4,17 @@ package hw;
  * Date: 2016/09/19
  * Author: 103051060 黃雅鈴
  */
+import java.util.Scanner;
 public class hw04_103051060 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		System.out.println("請輸入a與b(程式將輸出a開b次方後的結果): ");
+		Scanner scn = new Scanner(System.in);
+		double a = scn.nextFloat();
+		double b = scn.nextFloat();
+		
+		System.out.println("結果為: "+Math.pow(a, 1/b));
 	}
 
 }
